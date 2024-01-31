@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header_div{
+  background: yellowgreen;
+  padding: 10px;
+}
+.header_head h1{
+  color: #fff;
+}
+.footer_design p{
+  text-align: center;
+  color: yellowgreen;
+}
+.main_note{
+  position: relative;
+  background: #fff;
+  box-shadow: 0 0 5px #bdbdbd;
+  width: 300px;
+  display: block;
+  margin: 30px auto;
+  padding: 40px;
+  border-radius: 8px;
+}
+input,textarea{
+  border: none;
+  width: 100%;
+  display: block;
+  resize: none;
+}
+#circle-plus{
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 5px #bdbdbd;
+  line-height: 40px;
+  text-align: center;
+  color: yellowgreen;
+  font-size: 20px;
+}
+#circle-plus:hover{
+  background: yellowgreen;
+  color: #fff;
+}
+.note_div{
+  position: relative;
+  background: #fff;
+  box-shadow: 0 0 5px #bdbdbd;
+  width: 230px;
+  padding: 40px;
+  border-radius: 8px;
+  margin: 0 0 0 100px;
+}
+#circle-delete{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 5px #bdbdbd;
+  line-height: 40px;
+  text-align: center;
+  color: yellowgreen;
+  font-size: 20px;
+}
