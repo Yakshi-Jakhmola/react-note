@@ -53,7 +53,7 @@ const RealAppClone = () => {
             />
             <button onClick={addValue}>Add Item</button>
           </div>
-          <button onClick={allDelete}>All Notes Delete</button>
+          <button onClick={allDelete} id="deleteAll">All Notes Delete</button>
         </div>
         <div className="partTwo">
           {items.map((item, id) => (
